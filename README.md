@@ -12,7 +12,7 @@ sudo mount -t ntfs /dev/sdb1 /mnt/ntfs1
 Useful Commands to know for Plex-Kali Linux: 
 
 To install .deb files: 
-sudo dpkg -i <file name>
+sudo dpkg -i [file name]
 - The dpkg -i installs the .deb package
  
 If there are missing dependencies this can help fix them: 
