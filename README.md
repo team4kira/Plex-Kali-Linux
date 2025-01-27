@@ -16,3 +16,10 @@ To install .deb files: sudo dpkg -i file_name.deb
  
 If there are missing dependencies this can help fix them: 
 sudo apt-get install -f
+
+Installing Plex Media Server 
+
+- Open Terminal
+- sudo apt update
+- sudo dpkg -i plexmediaserver_ file
+- - Get the file from https://www.plex.tv/en-ca/media-server-downloads/
