@@ -21,5 +21,6 @@ Installing Plex Media Server
 
 - Open Terminal
 - sudo apt update
-- sudo dpkg -i plexmediaserver_ file
-- - Get the file from https://www.plex.tv/en-ca/media-server-downloads/
+- sudo dpkg -i plexmediaserver_ file.deb
+  - Get the file from https://www.plex.tv/en-ca/media-server-downloads/
+-  
