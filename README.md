@@ -24,7 +24,7 @@ Installing Plex Media Server
 - Enter: `sudo dpkg -i plexmediaserver_ file.deb`
   - Get the file from https://www.plex.tv/en-ca/media-server-downloads/
 -  Check if plex media server is running: `sudo systemctl status plexmediaserver`
-  - If it is not running enter: `sudo systectl start plexmediaserver`
+   - If it is not running enter: `sudo systectl start plexmediaserver`
 - If you're using UFW Firewall Ensure to Grant Access to the Following:
   - `sudo ufw allow 32400`
   - `sudo ufw app update plexmediaserver`
