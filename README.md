@@ -33,7 +33,7 @@ Installing Plex Media Server
 
 Configure Plex Media Server
 - Ensure you have a folder for the media you want access example: /home/Kali/HomeVideos
-- - To make a directory enter: `sudo mkdir -p /Directory/Location`
+  - To make a directory enter: `sudo mkdir -p /Directory/Location`
   - You can use a directory from a external harddrive just remember to mount the drive. See above for instruction on how to mount different drives in Linux
 - The folder would need to be readable and writeable
-- - To ensure the enter the following: `sudo chown -R plex: /home/Kali/HomeVideos`
+  - To ensure the enter the following: `sudo chown -R plex: /home/Kali/HomeVideos`
