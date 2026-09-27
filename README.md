@@ -1,6 +1,6 @@
 # Plex-Kali-Linux
-Plex Server on Kali-Linux
 
+## Useful commands before you start: 
 How to mount a ntfs drive on Kali Linux: 
 `sudo mount -t ntfs /dev/sdb1 /mnt/ntfs1`
 
