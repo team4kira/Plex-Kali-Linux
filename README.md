@@ -4,6 +4,13 @@
 How to mount a ntfs drive on Kali Linux: 
 `sudo mount -t ntfs /dev/sdb1 /mnt/ntfs1`
 
+Unmount a drive: 
+`sudo umount /mnt/ntfs1`
+
+Format a drive: 
+`sudo mkfs.<format> /dev/sdb1`
+Example: sudo mkfs.exfat /dev/sdb1
+
 Check Drive Information: 
 `lsblk -p -o NAME,SIZE,TYPE,FSTYPE,LABEL,MOUNTPOINTS`
 
