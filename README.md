@@ -9,7 +9,7 @@ Unmount a drive:
 
 Format a drive: 
 `sudo mkfs.<format> /dev/sdb1`
-Example: sudo mkfs.exfat /dev/sdb1
+<br>Example: sudo mkfs.exfat /dev/sdb1
 
 Check Drive Information: 
 `lsblk -p -o NAME,SIZE,TYPE,FSTYPE,LABEL,MOUNTPOINTS`
