@@ -20,6 +20,11 @@ Check Drive Information:
 - the command lsblk will show you what drives you have on your system
 - Additional Information, after the drive is mounted the following command can be used to ascertain how much space is left on the drive: df -h /mnt/ntfs1 
 
+## Troubleshooting Drive Issues: 
+
+- If drive is not being seen when you `lsblk` unplug and replug external drive
+- Ensure ntfs-3g is installed when troubleshooting ntfs drive: `sudo apt install ntfs-3g`
+- Run `sudo ntfsfix /dev/<drive>`
 
 ## Useful Commands to know for Plex-Kali Linux: 
 
@@ -28,12 +33,6 @@ To install .deb files: sudo dpkg -i file_name.deb
  
 If there are missing dependencies this can help fix them: 
 sudo apt-get install -f
-
-## Troubleshooting Drive Issues: 
-
-- If drive is not being seen when you `lsblk` unplug and replug external drive
-- Ensure ntfs-3g is installed when troubleshooting ntfs drive: `sudo apt install ntfs-3g`
-- Run `sudo ntfsfix /dev/<drive>`
 
 ## Installing Plex Media Server 
 
